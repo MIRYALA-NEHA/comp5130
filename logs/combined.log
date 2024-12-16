@@ -1,0 +1,54 @@
+2024-12-15T16:11:17.777Z [[32minfo[39m]: MongoDB connected successfully
+2024-12-15T16:11:17.782Z [[32minfo[39m]: App started and listening at port 8000
+2024-12-15T16:18:59.855Z [[32minfo[39m]: GET /course/best 200 - 34ms
+2024-12-15T16:18:59.865Z [[32minfo[39m]: GET /course/best 200 - 8ms
+2024-12-15T16:19:34.827Z [[32minfo[39m]: GET /course/best 200 - 7ms
+2024-12-15T16:19:34.833Z [[32minfo[39m]: GET /course/best 200 - 4ms
+2024-12-15T16:24:13.911Z [[32minfo[39m]: GET /course/best 200 - 6ms
+2024-12-15T16:24:13.918Z [[32minfo[39m]: GET /course/best 200 - 5ms
+2024-12-15T21:36:58.286Z [[32minfo[39m]: GET /course/best 200 - 30ms
+2024-12-15T21:36:58.296Z [[32minfo[39m]: GET /course/best 200 - 4ms
+2024-12-15T23:20:56.217Z [[32minfo[39m]: HTTPS server running on port 8000
+2024-12-15T23:20:56.782Z [[32minfo[39m]: MongoDB connected successfully
+2024-12-15T23:25:14.372Z [[32minfo[39m]: Fetching top 5 sold courses
+2024-12-15T23:25:14.434Z [[32minfo[39m]: Top sold courses fetched successfully
+2024-12-15T23:25:14.440Z [[32minfo[39m]: GET /course/best 200 - 69ms
+2024-12-15T23:25:14.443Z [[32minfo[39m]: Fetching top 5 sold courses
+2024-12-15T23:25:14.484Z [[32minfo[39m]: Top sold courses fetched successfully
+2024-12-15T23:25:14.487Z [[32minfo[39m]: GET /course/best 200 - 44ms
+2024-12-15T23:44:05.735Z [[32minfo[39m]: Fetching all courses from the database
+2024-12-15T23:44:05.960Z [[32minfo[39m]: All courses fetched successfully
+2024-12-15T23:44:05.962Z [[32minfo[39m]: GET /course/ 200 - 228ms
+2024-12-15T23:44:05.965Z [[32minfo[39m]: Fetching all courses from the database
+2024-12-15T23:44:06.000Z [[32minfo[39m]: All courses fetched successfully
+2024-12-15T23:44:06.001Z [[32minfo[39m]: GET /course/ 200 - 36ms
+2024-12-15T23:44:15.955Z [[32minfo[39m]: Fetching top 5 sold courses
+2024-12-15T23:44:15.988Z [[32minfo[39m]: Top sold courses fetched successfully
+2024-12-15T23:44:15.989Z [[32minfo[39m]: GET /course/best 200 - 34ms
+2024-12-15T23:44:15.991Z [[32minfo[39m]: Fetching top 5 sold courses
+2024-12-15T23:44:16.023Z [[32minfo[39m]: Top sold courses fetched successfully
+2024-12-15T23:44:16.024Z [[32minfo[39m]: GET /course/best 200 - 33ms
+2024-12-15T23:46:51.867Z [[32minfo[39m]: Fetching top 5 sold courses
+2024-12-15T23:46:51.902Z [[32minfo[39m]: Top sold courses fetched successfully
+2024-12-15T23:46:51.904Z [[32minfo[39m]: GET /course/best 200 - 37ms
+2024-12-15T23:46:51.906Z [[32minfo[39m]: Fetching top 5 sold courses
+2024-12-15T23:46:51.936Z [[32minfo[39m]: Top sold courses fetched successfully
+2024-12-15T23:46:51.937Z [[32minfo[39m]: GET /course/best 200 - 32ms
+2024-12-15T23:46:56.931Z [[32minfo[39m]: Fetching all courses from the database
+2024-12-15T23:46:56.975Z [[32minfo[39m]: All courses fetched successfully
+2024-12-15T23:46:56.977Z [[32minfo[39m]: GET /course/ 200 - 46ms
+2024-12-15T23:46:56.981Z [[32minfo[39m]: Fetching all courses from the database
+2024-12-15T23:46:57.015Z [[32minfo[39m]: All courses fetched successfully
+2024-12-15T23:46:57.016Z [[32minfo[39m]: GET /course/ 200 - 35ms
+2024-12-15T23:47:03.643Z [[32minfo[39m]: Fetching top 5 sold courses
+2024-12-15T23:47:03.681Z [[32minfo[39m]: Top sold courses fetched successfully
+2024-12-15T23:47:03.683Z [[32minfo[39m]: GET /course/best 200 - 40ms
+2024-12-15T23:47:03.684Z [[32minfo[39m]: Fetching top 5 sold courses
+2024-12-15T23:47:03.709Z [[32minfo[39m]: Top sold courses fetched successfully
+2024-12-15T23:47:03.710Z [[32minfo[39m]: GET /course/best 200 - 26ms
+2024-12-15T23:47:08.818Z [[32minfo[39m]: Fetching top 5 sold courses
+2024-12-15T23:47:08.857Z [[32minfo[39m]: Top sold courses fetched successfully
+2024-12-15T23:47:08.858Z [[32minfo[39m]: GET /course/best 200 - 40ms
+2024-12-15T23:47:08.860Z [[32minfo[39m]: Fetching top 5 sold courses
+2024-12-15T23:47:08.889Z [[32minfo[39m]: Top sold courses fetched successfully
+2024-12-15T23:47:08.891Z [[32minfo[39m]: GET /course/best 200 - 31ms

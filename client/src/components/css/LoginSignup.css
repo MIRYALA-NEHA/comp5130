@@ -1,0 +1,53 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+/* Mine CSS ........................................................................................................................*/
+
+.NEHAFooter{
+  background-color: #3b3b3b;
+}
+
+.NEHALogin:hover{
+  background-color: #3b3b3b;
+  transform: scale(1.05);
+  border-color: #3b3b3b;
+}
+
+.NEHAP{
+  margin-top: 45px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.NEHAImg{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 90px;
+}
+  
+.NEHABtn{
+  border-color: rgb(128, 128, 128);
+  width: fit-content;
+  height : fit-content ; 
+  background-color: rgb(255, 255, 255);
+}
+.NEHABtn:hover{
+  transform: scale(1.05);
+  background-color: white;
+  border-color: rgb(0, 0, 0);
+}

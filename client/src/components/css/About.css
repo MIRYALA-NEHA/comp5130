@@ -1,0 +1,48 @@
+.about-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    margin-top: 30px;
+}
+
+.about-section h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.about-section ul {
+    text-align: left;
+    list-style: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+}
+
+.about-container strong {
+    color: #007bff;
+    font-weight: bold;
+}

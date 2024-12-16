@@ -1,0 +1,141 @@
+/* General Container Styles */
+.courses-container {
+    padding: 20px 10vw;
+    background-color: #f9f9f9;
+}
+
+.courses-list {
+    list-style: none;
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course-item {
+    flex: 0 0 calc(33.33% - 50px);
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .course-item {
+        flex: 0 0 calc(50% - 50px); /* 2 cards per row for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .course-item {
+        flex: 0 0 100%; /* 1 card per row for mobile */
+    }
+}
+
+/* Product Card Styles */
+.product-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.discount-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.product-card:hover .card-btn {
+    opacity: 1;
+}
+
+/* Product Info Styles */
+.product-info {
+    padding: 15px;
+    text-align: left;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-overview {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.price-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.actual-price {
+    font-size: 14px;
+    color: #999;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.product-creator {
+    font-size: 13px;
+    color: #777;
+}
+
+/* Loading and Error States */
+.courses-loading,
+.courses-error {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
